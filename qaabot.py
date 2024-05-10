@@ -7,7 +7,7 @@ from langchain_community.vectorstores import FAISS
 
 from flask import Flask, render_template, request
 
-
+  
 # Cấu hình
 model_file = "models/vinallama-7b-chat_q5_0.gguf"
 vector_db_path = "vectorstores/db_faiss"
